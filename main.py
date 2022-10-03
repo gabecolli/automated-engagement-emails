@@ -28,7 +28,7 @@ if len(list_of_rmots) == len(list_of_originators):
     total_requests = len(list_of_rmots)
 
 pre_dict = {}
-for n in range(1,total_requests):
+for n in range(0,total_requests):
      
     generate_email(list_of_rmots[n],list_of_originators[n] + "@microsoft.com")
 
